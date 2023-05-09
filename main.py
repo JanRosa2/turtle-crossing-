@@ -27,7 +27,7 @@ while game_is_on:
         rand_car.car_move(scoreboard.level)
         if rand_car.xcor() < -380:
             rand_car.car_reset()
-        if rand_car.distance(x=player.xcor(), y=player.ycor()) <= 24 :
+        if rand_car.distance(x=player.xcor(), y=player.ycor()) <= 24:
             rand_car.xcor()
             scoreboard.end_game()
             game_is_on = False

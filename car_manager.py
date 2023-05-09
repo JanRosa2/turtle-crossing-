@@ -26,7 +26,3 @@ class CarManager(Turtle):
         self.random_y = random.randint(-240, 240)
         self.random_x = random.randint(340, 500)
         self.goto(self.random_x, self.random_y)
-
-
-
-

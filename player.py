@@ -1,5 +1,5 @@
 from turtle import Turtle
-import time
+
 STARTING_POSITION = (0, -280)
 MOVE_DISTANCE = 10
 FINISH_LINE_Y = 280
@@ -22,4 +22,3 @@ class Player(Turtle):
     def new_level(self):
         self.clear()
         self.goto(STARTING_POSITION)
-
